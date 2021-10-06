@@ -57,7 +57,7 @@ each object represents a host.
 | `phone` | Boolean | Whether or not this host is running the WireGuard iOS or Android app. | `files.py` will generate QR codes for phones. Required. |
 | `ips` | Array of IP/CIDR values | The IPs of a host. Servers automatically own the entire subnet; other hosts simply own one IP. | Required. |
 | `hostname` | IP or DNS name | The hostname of a host. | Required for servers, optional for all others. |
-| `port` | An integer between 0 and 65535 inclusive. | Required if and only if `hostname` is set. |
+| `port` | An integer between 0 and 65535, inclusive. | The port that WireGuard is to listen on. | Required if `hostname` is set; optional otherwise. Can be set when `hostname` is unset. |
 | `addl_nets` | Array of IP/CIDR values (as strings) | Lists additional subnets handled by this host. | Optional. |
 
 ## Routing stuff
