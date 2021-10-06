@@ -1,0 +1,8 @@
+/Manifest.toml
+tracefile-*.info
+/node_modules
+/test_imgs
+/examples
+package-lock.json
+/ignore
+*~
