@@ -1,7 +1,10 @@
 # Wireguard configuration tools
-There are many tools that exist to configure Wireguard VPNs.
-This one is mine.
-I wrote it to strike a specific balance with respect to complexity;
+There are many tools that exist to configure Wireguard VPNs;
+some are simple, some complex;
+some are free, others are limited and exorbitant;
+and some may work, while others may not.
+These are mine.
+I wrote them to strike a specific balance with respect to complexity;
 I wanted something uncomplicated enough that I wouldn't have to do incredible
 amounts of setup and *ad hoc* work just to get a VPN running (so I
 intentionally left out automatic provisioning and config distribution),
